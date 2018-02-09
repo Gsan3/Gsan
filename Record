@@ -1,0 +1,36 @@
+/*
+	Record
+	*/
+	package com.exam;
+	
+	public class Record{
+		String name;               //姓名
+		char sex;                 //性别
+		int age;                 //年龄
+		boolean married;       //婚姻状况
+		public int getAge() {
+			return age;
+		}
+		public void setAge(int age) {
+			this.age=age;
+		}
+		public boolean isMarried() {
+			return married;
+		}
+		public void setMarried(boolean married) {
+			this.married=married;
+		}
+		public String getName() {
+			return name;
+		}
+		public void setName(String name) {
+			this.name=name;
+		}
+		public char getSex() {
+			return sex;
+		}
+		public void setSex(char sex) {
+			this.sex=sex;
+			}
+		
+	}
